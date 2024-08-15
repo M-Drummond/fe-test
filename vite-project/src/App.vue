@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import HeroSection from './components/HeroSection.vue'
-import SiteFooter from './components/SiteFooter.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
+// import HeroSection from '@components/HeroSection.vue'
+import SiteFooter from '@/components/SiteFooter.vue'
 </script>
 
 <template>
