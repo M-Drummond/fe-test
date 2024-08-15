@@ -10,13 +10,13 @@ export default {
       fontFamily: {
         display: 'Oswald, ui-serif', // Adds a new `font-display` class
       },
-      // spacing: {
-      //   '8xl': '96rem',
-      //   '9xl': '128rem',
-      // },
-      // borderRadius: {
-      //   '4xl': '2rem',
-      // }
+      spacing: {
+        '8xl': '96rem',
+        '9xl': '128rem',
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      }
   }
   },
   plugins: [
