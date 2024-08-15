@@ -13,7 +13,7 @@ import SiteFooter from './components/SiteFooter.vue'
       <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
     </a>
     </div>
-  <!-- <HeroSection /> -->
+  <HeroSection />
   <HelloWorld msg="Vite + Vue" />
 
   <SiteFooter msg="fin" />
