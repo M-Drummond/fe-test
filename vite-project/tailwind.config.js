@@ -3,9 +3,12 @@
 import daisyui from "daisyui"
 
 export default {
+  daisyui: {
+    // themes: ['dark'],
+  },
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./src/**/*.{vue,js,ts,jsx,stories,tsx}",
   ],
   darkMode: ['class', '[data-mode="dark"]'],
   theme: {
@@ -23,7 +26,7 @@ export default {
   }
   },
   plugins: [
-    daisyui,
     require('@tailwindcss/typography'),
+    daisyui,
   ],
 }

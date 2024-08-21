@@ -1,5 +1,5 @@
 <template>
-    <div class="navbar bg-base-100">
+    <div class="navbar sticky top-0 bg-base-100">
         <div class="navbar-start">
             <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost btn-circle" @click="toggleDropdown">
