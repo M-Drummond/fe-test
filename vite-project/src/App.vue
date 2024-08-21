@@ -11,7 +11,7 @@ import CountButton from './components/CountButton.vue'
 
 <template>
 
-  <div class="w-full flex flex-row items-center space-x-4 mx-auto text-center max-w-sm bg-purple-300">
+  <div class="w-full flex flex-row items-center space-x-4 mx-auto text-center max-w-sm">
 
     <CountButton />
     <CountDisplay />

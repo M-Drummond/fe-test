@@ -26,3 +26,16 @@ export const Primary: Story = {
     text: 'Button Text',
   },
 };
+
+export const Bigger: Story = {
+  render: (args) => ({
+    components: { Button },
+    setup() {
+      return { args };
+    },
+    template: '<Button v-bind="args" />',
+  }),
+  args: {
+    text: 'Button Text Except A Little Bigger',
+  },
+};
